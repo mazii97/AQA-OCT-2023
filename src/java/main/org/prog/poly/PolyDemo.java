@@ -9,16 +9,16 @@ public class PolyDemo {
         GasTruck gasTruck = new GasTruck();
         HugeTruck hugeTruck = new HugeTruck();
 
-//        followTheRoute(gasCar);
+        followTheRoute(gasCar);
 //        followTheRoute(electricCar);
 //        followTheRoute(bike);
 //        followTheRoute(human);
 //        followTheRoute(gasTruck);
-//        followTheRoute(hugeTruck);
+        followTheRoute(hugeTruck);
 
-        gasCar.goTo("Kyiv", "Odessa");
-        gasCar.goTo("Kharkiv", "Uman", "Kyiv");
-        gasTruck.goTo("Lviv", "Odessa", "Ivano-Frankivs'k", 5);
+   //     gasCar.goTo("Kyiv", "Odessa");
+    //    gasCar.goTo("Kharkiv", "Uman", "Kyiv");
+    //    gasTruck.goTo("Lviv", "Odessa", "Ivano-Frankivs'k", 5);
     }
 
     public static void followTheRoute(IMovable iCar) {
