@@ -17,8 +17,10 @@ public class PolyDemo {
         followTheRoute(hugeTruck);
 
    //     gasCar.goTo("Kyiv", "Odessa");
-    //    gasCar.goTo("Kharkiv", "Uman", "Kyiv");
+      //  gasCar.goTo("Kharkiv", "Uman", "Kyiv", 0);
     //    gasTruck.goTo("Lviv", "Odessa", "Ivano-Frankivs'k", 5);
+        gasCar.goTo("Kyiv", "Ivano-Frankivs'k",
+                "Khmelnitskiy", "800 UAH", 2);
     }
 
     public static void followTheRoute(IMovable iCar) {

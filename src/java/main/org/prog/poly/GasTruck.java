@@ -2,15 +2,6 @@ package org.prog.poly;
 
 public class GasTruck extends GasCar {
 
-  @Override
-  public void accelerate() {
-    System.out.println("Gas truck accelerates");
-  }
-
-  @Override
-  public void stop() {
-    System.out.println("Gas truck slows down");
-  }
 
     @Override
     public void turnLeft() {
